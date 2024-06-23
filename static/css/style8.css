@@ -1,0 +1,163 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:  ;
+}
+.container{
+    margin: 20px auto;
+    max-width: 60%;
+    background:#fff;
+}
+.row{
+box-shadow: 8px 8px 9px 9px rgba(0, 0, 0,0.9);
+display:flex;
+}
+.Admin.login {
+background-color: #f9f9f9;
+padding: 20px;
+border-radius: 25px;
+}
+.admin-image{
+padding-top:27%;
+text-align:center;
+
+}
+.text .image{
+margin-top:8%;
+text-align:center;
+ }
+ Button{
+margin-top:-30%;
+background:#fff;
+border-radius:5px;
+padding:7px 11px;
+font-size:17px;
+outline:none;
+border:none;
+margin-left:10px;
+}
+ .text h4{
+text-align:center;
+font-weight:bold;
+font-size:22px;
+padding-top:8px;
+}
+.text p{
+text-align:center;
+font-size:13px;
+padding-bottom:17%;
+}
+.Input1 label,
+.Input2 label{
+margin-left:2px;
+font-size:14px;
+}
+ input[type=email],
+ input[type=password]{
+ width:100%;
+ border:1px solid #aaa;
+ margin:5px 0;
+ outline:none;
+ padding:7px;
+ box-sizing:border-box;
+ transition:.3s;
+ border-radius: 5px;
+  font-size:14px;
+ }
+input[type=email]:focus,
+input[type=password]:focus{
+border-color:dodgerBlue;
+box-shadow:0 0 8px 0 dodgerBlue;
+}
+.Input1 input[type=email],
+.Input2 input[type=password]{
+padding-left:28px;
+}
+.Input1,
+.Input2{
+position:relative;
+margin-left:8px;
+}
+.Input1 i,
+.Input2 i{
+ position: absolute;
+ left: 0%;
+ top: 32px;
+ padding:9px 8px;
+ color: #999;
+ font-size:15px;
+}
+ .checkbox{
+ margin-top:8px;
+ margin-left:3%;
+ font-size:13px;
+ color:black;
+ }
+.btn-primary {
+ background-color: darkviolet;
+  color: white;
+  border: none;
+  padding: 7px 43%;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top:-10%;
+}
+.btn-primary:hover {
+ background-color: blueviolet;
+  }
+h6{
+color:black;
+margin-top:25px;
+font-weight:bold;
+font-size:14px;
+}
+.forget p{
+  font-size:12px;
+  color:blueviolet;
+  margin-left:65%;
+  margin-top:-17px;
+ }
+
+@media(max-width: 768px){
+.Admin.login {
+background-color: #f9f9f9;
+padding: 7px;
+border-radius: 6px;
+ }
+.admin-image img{
+padding-bottom:20%;
+text-align:center;
+width:100%;
+height:auto;
+}
+.checkbox{
+ margin-top:5px;
+ font-size:11px;
+ color:black;
+ }
+ .forget p{
+  font-size:9px;
+  color:blueviolet;
+  margin-left:57%;
+  margin-top:-15px;
+  font-weight:bold;
+ }
+h6{
+color:black;
+margin-top:25px;
+font-weight:bold;
+font-size:12px;
+}
+.btn-primary {
+ background-color:blueviolet;
+  color: white;
+  border: none;
+  padding: 7px 43%;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top:-10%;
+}
+btn-primary:hover {
+ background-color: darkviolet;
+  }
+}
+

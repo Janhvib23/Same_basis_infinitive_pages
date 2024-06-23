@@ -1,0 +1,185 @@
+*{
+margin:0px;
+padding:0px;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color:white;
+}
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+.Image{
+margin-top:10px;
+margin-left:-5%;
+}
+.Image img{
+border-radius:22px;
+}
+.header{
+margin-left:74%;
+margin-top:-34%;
+}
+.header h2{
+font-weight:bold;
+font-family:Britannic Bold;
+color:#000060;
+}
+.header p{
+margin-left:32px;
+}
+.header .icon{
+margin-left:32px;
+margin-top:-15px;
+}
+.header button{
+margin-left:8px;
+font-size: 12px;
+padding: 10px 16px;
+background:#0000cd;
+}
+.item{
+margin-top:13%;
+margin-left:-20px;
+}
+.item h3{
+font-weight:bold;
+font-family:Britannic Bold;
+color:#000060;
+}
+.item button{
+font-size: 12px;
+padding: 9px 17px;
+background:#009900;
+}
+.calender{
+background:white;
+color:black;
+width:32%;
+margin-left:75%;
+margin-top:-29%;
+box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+}
+.calender h3{
+margin-left:23%;
+font-weight:bold;
+font-family:Britannic Bold;
+margin-bottom:5px;
+color:#000060;
+}
+.calender button{
+margin-left:7%;
+font-size: 12px;
+padding: 9px 9px;
+border-radius:5px;
+margin-bottom:10px;
+background:#009900;
+}
+table {
+    margin-left:7%;
+}
+
+ td {
+    border: 1px solid #c0c0c0;
+    padding: 8px 8px;
+    text-align: center;
+    font-size:13px;
+    font-weight:bold;
+}
+
+@media (max-width:770px){
+.container{
+    flex-wrap: wrap;
+    width: 745px;
+}
+.Image{
+margin-top:10px;
+}
+.Image img{
+ border-radius: 22px;
+ width:730px;
+ height:auto;
+ margin-left:13px;
+}
+.header{
+margin-left:22%;
+margin-top:7%;
+font-size:30px;
+}
+.header h2{
+font-weight:bold;
+font-family:Britannic Bold;
+color:red;
+font-size:55px;
+}
+.header p{
+margin-left:32px;
+}
+.header .icon{
+margin-left:32px;
+margin-top:-12px;
+}
+.header button{
+margin-left:8px;
+font-size: 23px;
+padding: 18px 28px;
+background:#0000cd;
+}
+.item{
+margin-top:10%;
+margin-left:22%;
+font-size:30px;
+}
+.item h3{
+font-weight:bold;
+font-family:Britannic Bold;
+color:#000060;
+font-size:55px;
+}
+.item h6{
+font-size:30px;
+margin-top:22px;
+}
+.item button{
+font-size: 23px;
+padding: 15px 25px;
+background:#009900;
+}
+.calender{
+background:white;
+color:black;
+width:60%;
+margin-left:18%;
+margin-top:10%;
+box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+}
+.calender h3{
+margin-left:25%;
+font-weight:bold;
+font-family:Britannic Bold;
+margin-bottom:5px;
+color:black;
+font-size:37px;
+}
+.calender button{
+margin-left:8%;
+font-size: 15px;
+padding: 11px 11px;
+border-radius:5px;
+margin-bottom:10px;
+background:#009900;
+}
+table {
+    margin-left:7%;
+}
+
+ td {
+    border: 1px solid #c0c0c0;
+    padding: 10px 10px;
+    text-align: center;
+    font-size:15px;
+    font-weight:bold;
+}
+
+}
